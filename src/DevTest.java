@@ -5,7 +5,6 @@ public class DevTest
     public static void main (String[] args)
     {
         Scanner in = new Scanner(System.in);
-        /*
         String firstName = "";
         String lastName = "";
         firstName = SafeInput.getNonZeroLenString(in, "Enter your first name");
@@ -87,7 +86,6 @@ public class DevTest
             }
         }while (!menuDone);
 
-         */
         SafeInput.prettyHeader("Hello World");
 
     }
